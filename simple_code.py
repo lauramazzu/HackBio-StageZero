@@ -1,4 +1,5 @@
-#Draft
+
+
 # Creating a dictionary structure to store our details
 
 all_bio_combined = {
@@ -12,9 +13,9 @@ all_bio_combined = {
 
     "team_member2": {
     "name":"Himabindu Kumdam",
-    "affiliation":"insert here",
-    "loved_gene":"insert here",
-    "organism":"insert here"
+    "affiliation":"an independent learner",
+    "loved_gene":"pdcd1",
+    "organism":"humans"
 
     },
 
@@ -25,14 +26,20 @@ all_bio_combined = {
         "organism": "insert here"
 
     },
+
+    "team_member4": {
+        "name": "Adeola Ayotope Oyesiji",
+        "affiliation": "an independent learner",
+        "loved_gene": "SOD1",
+        "organism": "humans"
+
+    },
 }
 
 #Using a for loop to iterate over each member
 
-print("Hi, we are team-glutamine :), and we are part of the AI Genomic HackBio internship.\nRead below to learn more about us.")
+print("Hi there, we are team glutamine :), and we are part of the AI Genomic HackBio internship.\nRead below to learn more about us.")
 for key in all_bio_combined:
     member = all_bio_combined[key]
-    #print(f"Hi, my name is {member["name"]}, {member["affiliation"]}. My favourite gene is {member["loved_gene"]}, "
-          #f"which is found in {member["organism"]}")
-    print(f"{member["name"]} is a {member["affiliation"]}. Her favourite gene is {member["loved_gene"]}, "
-          f"which is found in {member["organism"]}")
+    print(f"{member["name"]} works as {member["affiliation"]}. Their favourite gene is {member["loved_gene"]}, "
+          f"which is found in {member["organism"]}.")
