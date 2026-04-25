@@ -5,7 +5,7 @@
 all_bio_combined = {
     "team_member1": {
     "name":"Laura Mazzucchi",
-     "affiliation":"a Freelance researcher",
+     "affiliation":"a freelance researcher",
      "loved_gene":"rbcL, also known as RUBISCO",
      "organism":"all photosynthetic organisms",
     },
@@ -21,9 +21,9 @@ all_bio_combined = {
 
     "team_member3": {
         "name": "Devina Sharma",
-        "affiliation": "insert here",
-        "loved_gene": "insert here",
-        "organism": "insert here"
+        "affiliation": "an independent learner",
+        "loved_gene": "TP53",
+        "organism": "humans"
 
     },
 
@@ -41,5 +41,5 @@ all_bio_combined = {
 print("Hi there, we are team glutamine :), and we are part of the AI Genomic HackBio internship.\nRead below to learn more about us.")
 for key in all_bio_combined:
     member = all_bio_combined[key]
-    print(f"{member["name"]} works as {member["affiliation"]}. Their favourite gene is {member["loved_gene"]}, "
-          f"which is found in {member["organism"]}.")
+    print(f"{member["name"]} works as {member["affiliation"]}. The gene of interest is {member["loved_gene"]}, "
+          f"found in {member["organism"]}.")
