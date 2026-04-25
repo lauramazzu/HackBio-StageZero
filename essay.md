@@ -45,5 +45,4 @@ In summary, machine learning models can help uncover elements within the genome 
     
 *   Rives, A., Meier, J., Sercu, T., et al. (2021). Biological structure and function emerge from scaling unsupervised learning to protein sequences. _Proceedings of the National Academy of Sciences_.
     
-
-Abay, A., Zhou, Y., Baracaldo, N., Rajamoni, S., Chuba, E., & Ludwig, H. (2020). Mitigating bias in federated learning. _arXiv preprint arXiv:2012.02447_.
+*   Abay, A., Zhou, Y., Baracaldo, N., Rajamoni, S., Chuba, E., & Ludwig, H. (2020). Mitigating bias in federated learning. _arXiv preprint arXiv:2012.02447_.
